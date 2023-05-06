@@ -1,10 +1,13 @@
 
 
 const demosSection = document.getElementById('demos');
+
+
 var model = undefined;
     cocoSsd.load().then(function (loadedModel) {
   model = loadedModel;
-  demosSection.classList.remove('invisible');
+  alert('ready to use')
+
 });
 
 
